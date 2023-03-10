@@ -1,17 +1,17 @@
 /* @import '../styles/media.css'; */
 
 @font-face {
-    src: url('/font/NunitoSans-Regular.ttf');
+    src: url('../font/NunitoSans-Regular.ttf');
     font-family: 'Nunito Sans', sans-serif;
 }
 
 @font-face {
-    src: url('/font/NunitoSans-Italic.ttf');
+    src: url('../font/NunitoSans-Italic.ttf');
     font-family: 'Nunito Sans-Italic', sans-serif;
 }
 
 @font-face {
-    src: url('/font/YesevaOne-Regular.ttf');
+    src: url('../font/YesevaOne-Regular.ttf');
     font-family: 'Yeseva One';
 }
 
