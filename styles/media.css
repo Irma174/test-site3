@@ -1,0 +1,465 @@
+@media screen and (max-width: 1024px) {
+
+    nav,
+    .header__down,
+    .button__header,
+    .completed__navigation {
+        display: none;
+    }
+
+    .container {
+        width: 340px;
+        text-align: center;
+    }
+
+    .header__nav {
+        justify-content: space-around;
+    }
+
+    .nav__logo,
+    .nav__tel {
+        margin-right: 0;
+    }
+
+    .turnkey,
+    .turnkey-overlay {
+        height: 476px;
+    }
+
+    .turnkey-content {
+        width: 340px;
+        padding: 0;
+        margin: 0;
+        text-align: start;
+    }
+
+    .turnkey__title {
+        font-size: 23px;
+        line-height: 132.83%;
+        margin-top: 85px;
+    }
+
+    .turnkey__text {
+        font-size: 14px;
+        line-height: 135.84%;
+        width: 300px;
+    }
+
+    .button {
+        width: 340px;
+        margin-bottom: 61px;
+    }
+
+    .turnkey__button {
+        display: block;
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .turnkey__button-1 {
+        margin-right: 0;
+        margin-bottom: 26px;
+    }
+
+    .completed {
+        height: 660px;
+        padding: 0;
+    }
+
+    .completed-container {
+        padding-top: 36px;
+    }
+
+    .completed__wrap {
+        display: block;
+    }
+
+    .completed__desk {
+        margin: 0;
+    }
+
+    .completed__title {
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+        margin: 0 auto 22px;
+        height: 66px;
+    }
+
+    .completed__text {
+        font-size: 11px;
+        line-height: 158.48%;
+        text-align: center;
+        margin: 0 auto 36px;
+        max-width: 311px;
+        height: 86px;
+    }
+
+    .completed__items {
+        max-width: 340px;
+        max-height: 145px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        transform: translateY(277px);
+    }
+
+    .completed__item-title {
+        font-size: 14px;
+        line-height: 138.6%;
+    }
+
+    .completed__item-text {
+        font-size: 11x;
+        line-height: 18px;
+    }
+
+    .completed__carousel__photo {
+        max-height: 241px;
+        max-width: 340px;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        transform: translateY(-181px);
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        opacity: 1;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 36px;
+        height: 36px;
+        background: #E3B873;
+        border-radius: 50%;
+        top: 40%;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 1rem;
+        height: 1rem
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 0;
+        height: 0;
+    }
+
+    .carousel-indicators:after,
+    .carousel-indicators:before {
+        content: none;
+    }
+
+    .control {
+        background-color: #131313;
+        height: 885px;
+        margin-top: -1px;
+    }
+
+    .control__content {
+        margin-top: 0;
+        padding-top: 58px;
+    }
+
+    .control__title {
+        font-size: 22px;
+        line-height: 138.6%;
+        margin-bottom: 20px;
+    }
+
+    .line {
+        margin: 28px auto 21px;
+    }
+
+    .control__text {
+        max-height: 106px;
+        font-size: 11px;
+        line-height: 169.8%;
+        color: #FFFFFF;
+    }
+
+    .control__content {
+        margin-top: 0;
+    }
+
+    .application__form {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .application__form input {
+        line-height: 138.72%;
+        border: 0;
+        background: transparent;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        width: 100%;
+    }
+
+    .application__form input::placeholder {
+        color: #FFFFFF;
+        line-height: 138.72%;
+    }
+
+    .application__form-name label,
+    .application__form-phone label {
+        color: rgba(255, 255, 255, 0.5);
+        text-align: left;
+    }
+
+    .application__form-name {
+        margin-right: 0;
+        margin-bottom: 63px;
+    }
+
+    .application__form-phone {
+        margin-right: 0;
+        margin-bottom: 0px;
+    }
+
+    .checkbox__app {
+        margin: 0px;
+        transform: translateY(-105px);
+    }
+
+    .label__application {
+        color: #FFFFFF;
+    }
+
+    .application__button {
+        transform: translateY(110px);
+    }
+
+    .control__video {
+        background-image: url(../img/repair_video_mobile.jpg);
+        width: 100%;
+        height: 207px;
+    }
+
+    .control__overlay {
+        width: 100%;
+        height: 100%;
+    }
+
+    .control__video-play {
+        width: 37px;
+        height: 37px;
+    }
+
+    .control__triangle {
+        border-width: 5px 0px 5px 8px;
+        margin-left: 3px;
+    }
+
+    .typeRepair {
+        padding-top: 83px;
+        margin: 0;
+    }
+
+    .typeRepair__title {
+        font-size: 22px;
+        line-height: 138.6%;
+    }
+
+    .typeRepair__logo {
+        margin-bottom: 40px;
+    }
+
+    .typeRepair__items {
+        display: block;
+        padding-left: 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .typeRepair__item {
+        width: 100%;
+        min-height: 484px;
+        margin: 0;
+        margin-bottom: 59px;
+        padding-top: 223px;
+    }
+
+    .typeRepair__description {
+        margin: 0;
+        margin-left: -1px;
+        width: 270px;
+        height: 241px;
+    }
+
+    .typeRepair__parameter {
+        max-height: 152px;
+        text-align: left;
+    }
+
+    .typeRepair__parameter li {
+        line-height: 169.8%;
+    }
+
+    .typeRepair__price {
+        width: 190px;
+        height: 40px;
+        font-size: 15px;
+        line-height: 138.6%;
+        margin-left: 0;
+        margin-top: -20px;
+    }
+
+    .container__measurer,
+    .measurer__money,
+    .fantazies__container-list,
+    .fantazies__container-grid,
+    .clients,
+    .fantazies__overlay {
+        display: none;
+    }
+
+    .fantazies {
+        background-image: none;
+        height: 332px;
+        position: static;
+    }
+
+    .fantazies__container {
+        height: 332px;
+        max-width: 340px;
+        display: block;
+    }
+
+    .fantazies__container-text {
+        padding: 0;
+        position: static;
+        margin: 0 auto;
+    }
+
+    .fantazies__title {
+        font-size: 22px;
+        line-height: 138.6%;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
+    .fantazies__carousel__photo {
+        display: initial;
+        max-width: 340px;
+    }
+
+    .img_fantazies {
+        max-width: 340px;
+        max-height: 242px;
+        display: inline-block;
+    }
+
+    .contacts {
+        background-image: none;
+        background: #181818;
+        max-height: 973px;
+        width: 100%;
+        min-height: 1195px;
+        position: static;
+        margin-top: -250px;
+    }
+
+    .footer__container {
+        width: 340px;
+        min-height: 973px;
+        padding-top: 190px;
+    }
+
+    .questions {
+        width: 340px;
+        min-height: 500px;
+        margin-top: 0;
+        position: static;
+        border: 0;
+        box-shadow: none;
+    }
+
+    .questions__form {
+        height: 681px;
+    }
+
+    .questions__form-title-h4 {
+        padding-top: 0;
+        margin-bottom: 52px;
+    }
+
+    .questions__form-content,
+    .questions__form-name label,
+    .questions__form-phone label,
+    .questions__form-questions label {
+        display: block;
+    }
+
+    .questions__form input {
+        width: 100%;
+    }
+
+    .checkbox__question {
+        display: inline-block;
+        max-width: 276px;
+        margin: 0;
+        margin-top: 80px;
+    }
+
+    .question__button {
+        transform: translateY(-70px);
+    }
+
+    .address {
+        transform: translateY(90px);
+        margin-bottom: 0;
+        font-size: 18px;
+        line-height: 138.6%;
+        max-width: 330px;
+        display: inline-block;
+    }
+
+    .contacts__icon {
+        transform: translateY(110px);
+        margin-bottom: 40px;
+    }
+
+    .contacts__container,
+    .map {
+        max-width: 340px;
+        position: static;
+        text-align: center;
+    }
+
+    .map {
+        height: 255px;
+        transform: translateY(-390px);
+    }
+
+    .contacts__overlay {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .container,
+    .turnkey__button-1,
+    .turnkey__button-2,
+    .application__button,
+    .measurer__button,
+    .question__button,
+    .control__content
+    .turnkey-content,
+    .turnkey__text,
+    .turnkey__title,
+    .completed-container,
+    .footer__container,
+    .questions__form,
+    .map {
+        max-width: 90%;
+    }
+
+    .questions__form{
+        margin: 0;
+    }
+
+}
