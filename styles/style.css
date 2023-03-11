@@ -1,5 +1,3 @@
-/* @import '../styles/media.css'; */
-
 @font-face {
     src: url('../font/NunitoSans-Regular.ttf');
     font-family: 'Nunito Sans', sans-serif;
@@ -257,11 +255,6 @@ ul {
     margin-bottom: 50px;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    opacity: 0;
-}
-
 .completed__items {
     display: grid;
     grid-template-columns: repeat(2, 190px);
@@ -291,22 +284,24 @@ ul {
     max-width: 110px;
 }
 
-.carousel-indicators [data-bs-target] {
-    box-sizing: content-box;
-    flex: 0 1 auto;
-    width: 10px;
-    height: 10px;
-    border-radius: 30px;
-    padding: 0;
-    margin-right: 17px;
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.3);
-    background-clip: padding-box;
-    border: 0;
+.completed-foto {
+    height: 482px;
 }
 
-.carousel-indicators [data-bs-target]:last-child {
-    margin-right: 25px;
+.carousel-control-prev-foto,
+.carousel-control-next-foto {
+    opacity: 0;
+}
+
+.carousel-control-prev-foto:hover,
+.carousel-control-next-foto:hover {
+    opacity: 0;
+    cursor: default;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
 }
 
 .carousel-indicators {
@@ -317,21 +312,51 @@ ul {
     bottom: -25px;
 }
 
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    padding: 0;
+    margin-right: 17px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-clip: padding-box;
+    border: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
 .carousel-indicators [data-bs-target]:hover,
 .carousel-indicators [data-bs-target]:active {
-    background: #FFFFFF;
     cursor: pointer;
+    background-color: #FFFAFA;
 }
 
-.carousel-indicators:after {
-    content: url(../img/completed_forward.svg);
-    cursor: pointer;
+.carousel-control-prev-indicator[data-bs-target] {
+    width: 41px;
+    height: 13px;
+    background-color: #131313;
+    background-image: url("../img/completed_back.svg")
 }
 
-.carousel-indicators:before {
-    content: url(../img/completed_back.svg);
+.carousel-control-next-indicator[data-bs-target] {
+    width: 41px;
+    height: 13px;
+    background-color: #131313;
+    background-image: url("../img/completed_forward.svg")
+}
+
+.carousel-control-prev-indicator[data-bs-target]:hover,
+.carousel-control-prev-indicator[data-bs-target]:active,
+.carousel-control-next-indicator[data-bs-target]:hover,
+.carousel-control-next-indicator[data-bs-target]:active {
+    background-color: #131313;
     cursor: pointer;
-    margin-right: 25px;
 }
 
 .completed__carousel__photo {
@@ -862,6 +887,7 @@ ul {
 
 .fantazies__carousel__photo {
     display: none;
+
 }
 
 .fantazies__container-grid {
